@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Methods</title>
+</head>
+<body>
+    <div class="this is a class" id="id1" data-code1="Code_with_masti_" data-code2="Development_with_me_">this is div tag</div>
+    <span class="c" id="id2">this is span tag</span>
+
+    <script>
+        let id1=document.getElementById("id1");
+
+        // console.log(id1.hasAttribute("code"));
+        // console.log(id1.getAttribute("id"));
+        // id1.setAttribute("class","newclass");
+        // console.log(id1)
+        // console.log(id1.removeAttribute("id"));
+        // console.log(id1)
+
+        // console.log(id1.attributes)
+        console.log(id1.dataset)
+        console.log(id1.dataset.code1)
+        console.log(id1.dataset.code2)
+
+    </script>
+</body>
+</html>
